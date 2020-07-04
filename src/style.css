@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    width: 100%;
+    margin: 50px auto 0
+}
+
+.hole {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: #000 solid 2px;
+    border-radius: 50%;
+}
+
+.can-drop {
+    background: #0f0;
+}
+
+.can-not-drop {
+    cursor: not-allowed;
+    background: #f00;
+}
+
+.spin {
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #000;
+    touch-action: none;
+}
